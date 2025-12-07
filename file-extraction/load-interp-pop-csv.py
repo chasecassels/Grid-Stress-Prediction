@@ -24,8 +24,13 @@ def interpolate(df) -> pd.DataFrame:
     df.index = df.index.astype(int)
     years = np.arange(1950, 2040+1)
     df_yearly = df.reindex(years)
-    df_yearly = df_yearly.interpolate(method='cubicspline')
-    return df_yearly
+    df_yearly = df_yearly.interpolate(method='linear')
+
+    df_yearly.index = pd.to_datetime(df_yearly.index, format='%Y')
+
+    df_hourly = df_yearly.resample('H').interpolate('linear')
+
+    return df_hourly
 
 #import population csv into sqlite db
 for name in os.listdir(folder_path):
