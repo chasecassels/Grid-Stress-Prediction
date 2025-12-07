@@ -27,7 +27,7 @@ def interpolate(df) -> pd.DataFrame:
     df_yearly = df_yearly.interpolate(method='linear')
 
     df_yearly.index = pd.to_datetime(df_yearly.index, format='%Y')
-
+c
     df_hourly = df_yearly.resample('H').interpolate('linear')
 
     return df_hourly
