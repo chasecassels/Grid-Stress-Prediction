@@ -3,7 +3,7 @@ import sqlite3
 import os
 
 folder_path = "../source-data"
-db_path = "../database/weather-data.db"
+db_path = "../database/nyc-data.db"
 conn = sqlite3.connect(db_path)
 
 #import all csvs into sqlite db
