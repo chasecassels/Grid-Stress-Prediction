@@ -34,7 +34,6 @@ Using a database manager or via command line, execute following sql scripts in o
 
 ```
 combine-source-tables.sql
-all-historic.sql
 nec-vals.sql
 ```
 
