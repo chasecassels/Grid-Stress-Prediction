@@ -30,12 +30,16 @@ $ python3 load-interp-pop-csv.py
 
 ## Preprocessing
 
-Using a database manager or via command line, execute following sql scripts in order to create necessary tables:
+Using a database manager or via command line, execute following sql scripts in order. The result will be 3 tables of hourly  
+temperature, humiditity, and population data for Brooklyn (JFK), Manhattan (Central Park), and Queens (LaGuardia)
 
 ```
 combine-source-tables.sql
 nec-vals.sql
+pop-joins.sql
 ```
+
+
 
 
 

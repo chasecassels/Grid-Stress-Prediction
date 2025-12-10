@@ -1,4 +1,4 @@
-CREATE TABLE Queens_LaGaurdia_weather AS SELECT
+CREATE TABLE Queens_LaGuardia_weather AS SELECT
     datetime(
         "Year" || '-' ||
         printf('%02d', "Month") || '-' ||
