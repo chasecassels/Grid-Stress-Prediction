@@ -4,9 +4,9 @@ similarities.
 
 Legend:
 
-0:JFK
-1:CentralPark
-2:LaGuardia
+0:Brooklyn:JFK
+1:Manhattan:CentralPark
+2:Queens:LaGuardia
 
 
 Weather data variable information:
