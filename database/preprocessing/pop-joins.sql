@@ -1,4 +1,4 @@
-CREATE TABLE Brookly_JFK AS SELECT
+CREATE TABLE Brooklyn_JFK AS SELECT
 	a.*,
 	b."0" AS Population
 FROM
