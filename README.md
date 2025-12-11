@@ -47,6 +47,10 @@ pop-joins.sql
 
 ## ML
 
+Some inspiration:
+
+https://www.sciencedirect.com/science/article/pii/S0306261923011479
+
 
 ---
 
