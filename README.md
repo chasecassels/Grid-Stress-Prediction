@@ -56,6 +56,11 @@ https://www.sciencedirect.com/science/article/pii/S0306261923011479
 
 ## Mapping and Visulization
 
+Basic weather/population plots
+
+```
+$ cd visualization
+$ python3 test-basic-plot.py
 
 ---
 
